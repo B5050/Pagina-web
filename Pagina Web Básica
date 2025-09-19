@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Bryan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a la página de Bryan</h1>
+    <p>Mi espacio personal en la web</p>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section id="sobre">
+    <h2>Sobre mí</h2>
+    <div class="card">
+      <p>Hola, soy Bryan. Me interesa la tecnología, los negocios y seguir aprendiendo cada día. Este es mi sitio web donde comparto mis intereses y proyectos.</p>
+    </div>
+  </section>
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="card">
+      <p>Aquí puedes encontrar algunos de los proyectos en los que estoy trabajando o que me apasionan, desde programación hasta ideas de negocios.</p>
+    </div>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>Puedes escribirme a: <a href="mailto:bryanyveldejesus1@gmail.com">bryanyveldejesus1@gmail.com</a></p>
+    </div>
+  </section>
+  <footer>
+    <p>© 2025 Bryan Nieves de Jesús</p>
+  </footer>
+</body>
+</html>
